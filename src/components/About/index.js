@@ -14,15 +14,15 @@ function About() {
       <div className="knowledge">
         <h2>Skills that I can offer</h2>
         <p>
-          I have experience with learning the following coding languages:
-          HTML
-          CSS
-          JavaScript
-          Node
-          MySql
-          Mongo
-          Bash
-          NoSql
+          I have experience with the following coding languages:
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node</li>
+          <li>MySql</li>
+          <li>Mongo</li>
+          <li>Bash</li>
+          <li>NoSql</li>
           </p>
       </div>
     </section>
