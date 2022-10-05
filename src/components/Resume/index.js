@@ -15,7 +15,7 @@ function Resume() {
             <a
               className="resume-link fs-2 mt-4 fw-bolder"
               style={{ textDecoration: "none" }}
-              href="/Resume.pdf"
+              href="Resume.pdf"
               target="_blank"
               rel="norefferer"
             >
