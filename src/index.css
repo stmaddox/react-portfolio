@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navigation-bar {
+  background-color: #84d2f6;
+}
+
+.asset,
+.asset-info {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.knowledge {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-end {
+  align-content: flex-end;
+}
+
+.footer {
+  background-color: #0077b6;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  padding-bottom: 100px;
+}
