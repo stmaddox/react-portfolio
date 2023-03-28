@@ -1,6 +1,34 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBContainer } from "mdb-react-ui-kit";
 
+const skill = [
+  "JavaScript",
+  "CSS",
+  "HTML",
+  "React",
+  "MongoDB",
+  "Node.js",
+  "Express.js",
+  "MySQL",
+  "jQuery",
+  "Apollo",
+  "Mongoose",
+  "Bootstrap",
+  "NPM",
+  "DotENV",
+  "Handlebars",
+  "Jest",
+  "GraphQL",
+  "GitHub",
+  "GitBash",
+  "Sequelize",
+  "JSON Web Token",
+  "React-Router-DOM",
+  "BCRYPT",
+];
+
+const sortSkill = skill.sort();
+
 function Resume() {
   return (
     <>
@@ -11,16 +39,31 @@ function Resume() {
           </MDBCol>
         </MDBRow>
         <MDBRow className="d-flex">
-          <MDBCol>
+          <MDBCol className="mt-3">
             <a
               className="resume-link fs-2 mt-4 fw-bolder"
               style={{ textDecoration: "none" }}
-              href="Resume.pdf"
+              href="https://docs.google.com/document/d/11-WBOV3R4rV0Gma2gKaQJPvUY4xNqUMDfPRop5XGJOE/edit?usp=sharing"
+              download
               target="_blank"
-              rel="norefferer"
+              rel="noreferrer noopener"
             >
               Click Here to View Resume
             </a>
+          </MDBCol>
+        </MDBRow>
+        <MDBRow className="mt-4">
+          <MDBCol>
+            <h2 className="text-decoration-underline">
+              Computer Languages Known:
+            </h2>
+            <ul className="skills-container d-flex flex-fill flex-wrap list-group list-group-horizontal">
+              {sortSkill.map((skill, i) => (
+                <li className="p-2 list-group-item border-0 fw-bold" key={i}>
+                  {skill}
+                </li>
+              ))}
+            </ul>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
