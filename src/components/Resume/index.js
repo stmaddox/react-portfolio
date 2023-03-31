@@ -25,6 +25,7 @@ const skill = [
   "JSON Web Token",
   "React-Router-DOM",
   "BCRYPT",
+  "MERN",
 ];
 
 const sortSkill = skill.sort();
