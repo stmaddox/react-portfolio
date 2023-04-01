@@ -6,6 +6,10 @@ body {
   height: 100vh;
 }
 
+main {
+  background-color: lightgray;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

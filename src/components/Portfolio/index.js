@@ -5,6 +5,7 @@ import Image3 from "../../Assets/pictures/rhythm.in.region.png";
 import Image4 from "../../Assets/pictures/social.network.png";
 import Image5 from "../../Assets/pictures/team.profile.png";
 import Image6 from "../../Assets/pictures/chore.it.up.png";
+import Image7 from "../../Assets/pictures/work.scheduler.png";
 import {
   MDBCard,
   MDBCardImage,
@@ -16,7 +17,7 @@ import {
   MDBContainer,
   MDBBtn,
 } from "mdb-react-ui-kit";
-import { tab } from "@testing-library/user-event/dist/tab";
+//import { tab } from "@testing-library/user-event/dist/tab";
 
 function Portfolio() {
   const openNewTab = (url) => {
@@ -152,6 +153,79 @@ function Portfolio() {
                 openNewTab(
                   "https://drive.google.com/file/d/1-avsrQTqfsRWvzHJhv2d98vCLrSboiFg/view"
                 )
+              }
+            >
+              View App
+            </MDBBtn>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol className="mt-3">
+          <MDBCard className="h-100">
+            <MDBCardImage src={Image6} alt="Chore It Up" position="top" />
+            <MDBCardBody>
+              <MDBCardTitle>Chore It Up</MDBCardTitle>
+              <MDBCardText>
+                Chore It Up is a MERN stack application tailored for adults
+                where users can track the chores they are assigned to do around
+                the house. After a user signs up, one user can then create a
+                group and invite other users to that group. Once people join
+                they can assign each other chores that need to be done, update
+                the chore, or mark it as complete.
+              </MDBCardText>
+            </MDBCardBody>
+            <MDBBtn
+              onClick={() =>
+                openNewTab("https://floating-atoll-58183.herokuapp.com/")
+              }
+            >
+              View App
+            </MDBBtn>
+          </MDBCard>
+        </MDBCol>
+      </MDBRow>
+      <MDBRow>
+        <MDBCol className="mt-3">
+          <MDBCard className="h-100">
+            <MDBCardImage src={Image7} alt="Work Scheduler" position="top" />
+            <MDBCardBody>
+              <MDBCardTitle>Work Scheduler</MDBCardTitle>
+              <MDBCardText>
+                Work Scheduler is an application where users can put in the
+                different tasks that they need to do that day into the different
+                time slots to help with organization. At the top of the page it
+                will display what day it is as well as the time and as the day
+                goes on the different time blocks will change color. Red if it
+                is the current hour, green for the for future hours, and grey
+                for past hours. This application utilizes local storage and will
+                save tasks even if the page is refreshed.
+              </MDBCardText>
+            </MDBCardBody>
+            <MDBBtn
+              onClick={() =>
+                openNewTab("https://stmaddox.github.io/work-scheduler/")
+              }
+            >
+              View App
+            </MDBBtn>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol className="mt-3">
+          <MDBCard className="h-100">
+            <MDBCardImage src={Image6} alt="Chore It Up" position="top" />
+            <MDBCardBody>
+              <MDBCardTitle>Chore It Up</MDBCardTitle>
+              <MDBCardText>
+                Chore It Up is a MERN stack application tailored for adults
+                where users can track the chores they are assigned to do around
+                the house. After a user signs up, one user can then create a
+                group and invite other users to that group. Once people join
+                they can assign each other chores that need to be done, update
+                the chore, or mark it as complete.
+              </MDBCardText>
+            </MDBCardBody>
+            <MDBBtn
+              onClick={() =>
+                openNewTab("https://floating-atoll-58183.herokuapp.com/")
               }
             >
               View App
