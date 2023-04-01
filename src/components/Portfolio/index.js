@@ -6,6 +6,7 @@ import Image4 from "../../Assets/pictures/social.network.png";
 import Image5 from "../../Assets/pictures/team.profile.png";
 import Image6 from "../../Assets/pictures/chore.it.up.png";
 import Image7 from "../../Assets/pictures/work.scheduler.png";
+import Image8 from "../../Assets/pictures/readme.generator.png";
 import {
   MDBCard,
   MDBCardImage,
@@ -211,21 +212,26 @@ function Portfolio() {
         </MDBCol>
         <MDBCol className="mt-3">
           <MDBCard className="h-100">
-            <MDBCardImage src={Image6} alt="Chore It Up" position="top" />
+            <MDBCardImage src={Image8} alt="README Generator" position="top" />
             <MDBCardBody>
-              <MDBCardTitle>Chore It Up</MDBCardTitle>
+              <MDBCardTitle>README Generator</MDBCardTitle>
               <MDBCardText>
-                Chore It Up is a MERN stack application tailored for adults
-                where users can track the chores they are assigned to do around
-                the house. After a user signs up, one user can then create a
-                group and invite other users to that group. Once people join
-                they can assign each other chores that need to be done, update
-                the chore, or mark it as complete.
+                README Generator is an application that helps users put together
+                a thorough README for applications that users develop. By
+                following the prompt users will provide anyone viewing the code
+                a better understanding of the application such as its use, what
+                needs to be installed for it to run, if it requires any tests,
+                who worked on the application, how to contact the creators, if
+                there is a license for it, as well as screenshots of the
+                application. Click on the view app button to see a video
+                demonstation of how this works.
               </MDBCardText>
             </MDBCardBody>
             <MDBBtn
               onClick={() =>
-                openNewTab("https://floating-atoll-58183.herokuapp.com/")
+                openNewTab(
+                  "https://drive.google.com/file/d/18oxLRY3yK5gS4L9HVL-mVILWY68RZHmj/view"
+                )
               }
             >
               View App
