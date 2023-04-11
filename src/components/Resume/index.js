@@ -60,7 +60,10 @@ function Resume() {
             </h2>
             <ul className="skills-container d-flex flex-fill flex-wrap list-group list-group-horizontal">
               {sortSkill.map((skill, i) => (
-                <li className="p-2 list-group-item border-0 fw-bold" key={i}>
+                <li
+                  className="code-skill p-2 list-group-item border-0 fw-bold list-group-item-dark"
+                  key={i}
+                >
                   {skill}
                 </li>
               ))}

@@ -54,3 +54,7 @@ code {
 ul {
   list-style-type: none;
 }
+
+li .list-group-item {
+  background-color: lightgray;
+}
