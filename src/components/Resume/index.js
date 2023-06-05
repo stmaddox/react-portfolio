@@ -44,7 +44,7 @@ function Resume() {
             <a
               className="resume-link fs-2 mt-4 fw-bolder"
               style={{ textDecoration: "none" }}
-              href="https://docs.google.com/document/d/11-WBOV3R4rV0Gma2gKaQJPvUY4xNqUMDfPRop5XGJOE/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1iEyKRmpwrutrUg0jBHyx2RJ2Boam28qWkOa_T4CBe-o/edit#heading=h.jhv78pp9wtzd"
               download
               target="_blank"
               rel="noreferrer noopener"

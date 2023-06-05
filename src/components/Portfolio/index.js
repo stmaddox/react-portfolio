@@ -238,7 +238,7 @@ function Portfolio() {
             </MDBBtn>
           </MDBCard>
         </MDBCol>
-        <MDBCol className="mt-3">
+        {/* <MDBCol className="mt-3">
           <MDBCard className="h-100">
             <MDBCardImage src={Image6} alt="Chore It Up" position="top" />
             <MDBCardBody>
@@ -260,7 +260,7 @@ function Portfolio() {
               View App
             </MDBBtn>
           </MDBCard>
-        </MDBCol>
+        </MDBCol> */}
       </MDBRow>
     </MDBContainer>
   );
