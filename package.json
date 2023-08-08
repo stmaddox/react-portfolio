@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://stmaddox.github.io/react-portfolio",
+  "homepage": "http://stmaddox.github.io/react-portfolio#About",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
