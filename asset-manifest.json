@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0fb427d5.css",
+    "main.js": "/react-portfolio/static/js/main.a93aa767.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/rhythm.in.region.png": "/react-portfolio/static/media/rhythm.in.region.989d8e03930cba102c32.png",
+    "static/media/dose.png": "/react-portfolio/static/media/dose.24c42bbe427dd802fdf4.png",
+    "static/media/readme.generator.png": "/react-portfolio/static/media/readme.generator.1df50ebbe2d7fff2b08c.png",
+    "static/media/social.network.png": "/react-portfolio/static/media/social.network.ad53fb82bde4e0e81a7b.png",
+    "static/media/me.jpg": "/react-portfolio/static/media/me.4c4b94afbdeda5b920b2.jpg",
+    "static/media/chore.it.up.png": "/react-portfolio/static/media/chore.it.up.43713fae57ad9cd34cd6.png",
+    "static/media/work.scheduler.png": "/react-portfolio/static/media/work.scheduler.ecfc8cc508e6ba8dd7cf.png",
+    "static/media/random.pw.png": "/react-portfolio/static/media/random.pw.eef5a1b5f0de2cdf43e5.png",
+    "static/media/team.profile.png": "/react-portfolio/static/media/team.profile.66768ffa15c21d115bfb.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.0fb427d5.css.map": "/react-portfolio/static/css/main.0fb427d5.css.map",
+    "main.a93aa767.js.map": "/react-portfolio/static/js/main.a93aa767.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb427d5.css",
+    "static/js/main.a93aa767.js"
+  ]
+}
